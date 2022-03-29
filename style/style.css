@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(7, 132, 149);
+}
+
+/* Estilos del header */
+header {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    border: 3px black solid;
+    background-image: url(/assets/design1_image1.jpg);
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position-y: -12;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 208, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+
+}
+
+
+
+
+#mdhl_logo {
+    display: flex;
+    width: 150px;
+    height: 190px;
+    float: right;
+    /* margin-top: 1000px; */
+}
+
+.div-header-up {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: rgb(255, 208, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    height: 35px;
+}
+
+
+
+/* Fin de estilos header */
+
+/* Estilos Main */
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.nav-bar a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    padding: 14px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 2px black solid;
+    width: 170px;
+    background-color: rgb(255, 208, 0);
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+
+}
+.main-container dt {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+.main-container dd {
+    margin: 15px;
+}
+
+/* Fin estilos main */
+
+
+/* estilos footer */
+
+footer {
+    display: flex;
+    justify-content:center;
+    height: 50px;
+    background-color: black;
+
+}
+
+footer p {
+    display: flex; 
+    /* align-content: space-around; */
+    color: rgb(255, 217, 0);
+}
+
+/* Fin estilos footer */
